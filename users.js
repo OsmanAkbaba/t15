@@ -31,7 +31,7 @@ var router = express.Router();
 
     router.post('/', function(request,response)
     {
-        response.send(request.body);        // TÄTÄ EN SAANU TOIMIMAAN
+        response.send(request.body);        // TÄTÄ EN SAANU TOIMIMAAN -- TOIMII
     
     });
       
